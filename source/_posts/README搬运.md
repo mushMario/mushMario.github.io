@@ -51,10 +51,11 @@ public:
 	> \*\*\*\*的幽灵，  
 	> 盘旋在欧罗巴的大陆上。  
 - 这里是一张图片！
-   - *这回真的是了*  
+   - ~~*并不是*~~  
    ![mush](https://avatars.githubusercontent.com/u/39669570)  
+   ![another mush](https://mushmario.github.io/img/avatar.png)  
 - [这里是一串链接！](https://mushmario.github.io)
 
 # 再见！
-[^指private项目]: mushmario.github.io
+[^指private项目]: https://mushmario.github.io
 [原文](https://github.com/mush-and-phioa/mushroom-hexo)

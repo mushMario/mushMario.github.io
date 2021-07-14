@@ -51,4 +51,4 @@ public:
 - [这里是一串链接！](https://mushmario.github.io)
 
 # 再见！
-[^指private项目]: mushmario.github.io
+[^指private项目]: https://mushmario.github.io
