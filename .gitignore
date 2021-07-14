@@ -5,5 +5,10 @@ db.json
 node_modules/
 public/
 .deploy*/
+<<<<<<< HEAD
 fetch.bat
 push.bat
+=======
+push.bat
+fetch.bat
+>>>>>>> 4c005a382e7103a0556639237a97251c88a586ca
