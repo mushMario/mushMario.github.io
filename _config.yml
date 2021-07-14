@@ -103,6 +103,6 @@ theme: Material
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/mushMario/mushMario.github.io.git
+  repo: git@github:mushMario/mushmario.github.io
   branch: master
   message: 
