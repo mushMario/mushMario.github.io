@@ -46,7 +46,7 @@ public:
 	> \*\*\*\*的幽灵，  
 	> 盘旋在欧罗巴的大陆上。  
 - 这里是一张图片！
-   - ~~*这回真的是了~~又不是了*  
+   - *~~这回真的是了~~又不是了*  
    ![mush](https://avatars.githubusercontent.com/u/39669570)
 	![piece of shit](https://avatars.githubusercontent.com/u/60220179)  
    
