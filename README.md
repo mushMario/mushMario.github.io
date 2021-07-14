@@ -1,6 +1,6 @@
 # 你好！
 - 这是个私人项目[^指private项目]
-- [^是说其他人也没法看]不会有其他人看
+- [^是说其他人也没法看]: 不会有其他人看
 - 因此readme也没有什么意义
 - 我也不知道我为什么要搞这个
 - **能想到的原因如下**:
@@ -45,5 +45,11 @@ public:
 	> 一个幽灵，  
 	> \*\*\*\*的幽灵，  
 	> 盘旋在欧罗巴的大陆上。  
-	
+- 这里是一张图片！
+   - *这回真的是了*
+   ![mush](https://avatars.githubusercontent.com/u/39669570)
+- [这里是一串链接！](https://mushmario.github.io)
+
 # 再见！
+[^是说其他人也没法看]: mushmario.github.io
+[^指private项目]: mushmario.github.io
