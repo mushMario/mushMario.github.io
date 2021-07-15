@@ -96,20 +96,20 @@ fun_features:
   # 为文章内容中的标题添加锚图标
   # Add an anchor icon to the title on the post page
   anchorjs:
-    enable: true
+    enable: false
     element: h1,h2,h3,h4,h5,h6
-    placement: right
+    placement: left
     # Options: hover | always | touch
     visible: hover
     # Option：§ | # | ❡
-    icon: ""
+    icon: "⚑"
 
   # 加载进度条
   # Progress bar when loading
   progressbar:
     enable: true
-    height_px: 3
-    color: "#8252a2"
+    height_px: 2
+    color: "#a88cc6"
     # See: https://github.com/rstacruz/nprogress
     options: { showSpinner: false, trickleSpeed: 100 }
 
@@ -131,7 +131,7 @@ color:
   body_bg_color: "#8252a2"
   # 暗色模式下的 body 背景色，下同
   # Color in dark mode, the same below
-  body_bg_color_dark: "#181c27"
+  body_bg_color_dark: "#8252a2"
 
   # 顶部菜单背景色
   # Color of navigation bar background
@@ -146,48 +146,48 @@ color:
   # 全局字体色
   # Color of global text
   text_color: "#412951"
-  text_color_dark: "#c4c6c9"
+  text_color_dark: "#a88cc6"
 
   # 全局次级字体色（摘要、简介等位置）
   # Color of global secondary text (excerpt, introduction, etc.)
-  sec_text_color: "#9b6029"
-  sec_text_color_dark: "#a7a9ad"
+  sec_text_color: "#a88cc6"
+  sec_text_color_dark: "#8252a2"
 
   # 文章正文字体色
   # Color of post text
   post_text_color: "#412951"
-  post_text_color_dark: "#c4c6c9"
+  post_text_color_dark: "#a88cc6"
 
   # 文章正文字体色（h1 h2 h3...）
   # Color of Article heading (h1 h2 h3...)
   post_heading_color: "#412951"
-  post_heading_color_dark: "#c4c6c9"
+  post_heading_color_dark: "#fff"
 
   # 文章超链接字体色
   # Color of post link
   post_link_color: "#9b6029"
-  post_link_color_dark: "#1589e9"
+  post_link_color_dark: "#f3c66f"
 
   # 超链接悬浮时字体色
   # Color of link when hovering
   link_hover_color: "#a88cc6"
-  link_hover_color_dark: "#30a9de"
+  link_hover_color_dark: "#c5b3d2"
 
   # 超链接悬浮背景色
   # Color of link background when hovering
-  link_hover_bg_color: "#f8f9fa"
+  link_hover_bg_color: "#fff"
   link_hover_bg_color_dark: "#364151"
 
   # 主面板背景色
   # Color of main board
   board_color: "#fff"
-  board_color_dark: "#252d38"
+  board_color_dark: "#412951"
 
 # 主题字体配置
 # Font
-font:
+font: 
   font_size: 16px
-  font_family:
+  font_family: 
   code_font_size: 85%
 
 # 指定自定义 .js 文件路径，支持列表；路径是相对 source 目录，如 /js/custom.js 对应存放目录 source/js/custom.js
@@ -289,16 +289,16 @@ navbar:
   # 导航栏毛玻璃特效，实验性功能，可能会造成页面滚动掉帧和抖动，部分浏览器不支持会自动不生效
   # Navigation bar frosted glass special animation. It is an experimental feature
   ground_glass:
-    enable: ture
+    enable: true
 
     # 模糊像素，只能为数字，数字越大模糊度越高
     # Number of blurred pixel. the larger the number, the higher the blur
-    px: 3
+    px: 30
 
     # 不透明度，数字越大透明度越低，注意透明过度可能看不清菜单字体
     # Ratio of opacity, 1.0 is completely opaque
     # available: 0 - 1.0
-    alpha: 0.8
+    alpha: 0.9
 
   # 导航栏菜单，可自行增减，key 用来关联 languages/*.yml，如不存在关联则显示 key 本身的值；icon 是 css class，可以省略；增加 name 可以强制显示指定名称
   # Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name
@@ -486,7 +486,7 @@ index:
 post:
   banner_img: /img/default.png
   banner_img_height: 70
-  banner_mask_alpha: 0.3
+  banner_mask_alpha: 0
 
   # 文章在首页的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
   # Path of the default post cover when `index_img` is not set. If both are empty, no image will be displayed
@@ -539,7 +539,7 @@ post:
   # 在文章开头显示文章更新时间，该时间默认是 md 文件更新时间，可通过 front-matter 中 `updated` 手动指定（和 date 一样格式）
   # Update date is displayed at the beginning of the post. The default date is the update date of the md file, which can be manually specified by `updated` in front-matter (same format as date)
   updated:
-    enable: false
+    enable: true
 
     # 描述文字
     # Descriptive text before date
@@ -547,7 +547,7 @@ post:
 
     # 是否使用相对时间表示，比如："3 天前"
     # If true, it will be a relative time, such as: "3 days ago"
-    relative: false
+    relative: true
 
   # 文章右侧目录
   # Table of contents (TOC)
@@ -624,11 +624,11 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis
-    type: disqus
+    type: twikoo
 
 
 #---------------------------
@@ -731,8 +731,8 @@ waline:
 # Based on third-party service, insufficient support for regions outside China
 # http://changyan.kuaizhan.com
 changyan:
-  appid: ''
-  appkey: ''
+  appid: 'cyvyAy4qY'
+  appkey: 'aa5a8425c9e00922247f4da315153439'
 
 # 来必力 Livere
 # 基于第三方的服务
@@ -757,8 +757,8 @@ remark42:
 # Based on Tencent CloudBase
 # See: https://twikoo.js.org
 twikoo:
-  envId:
-  region: ap-shanghai
+  envId: https://mushroom-twikoo.vercel.app/
+  region: 
   path: window.location.pathname
 
 # Cusdis
@@ -776,9 +776,9 @@ cusdis:
 #---------------------------
 archive:
   banner_img: /img/default.png
-  banner_img_height: 60
-  banner_mask_alpha: 0.3
-  subtitle:
+  banner_img_height: 40
+  banner_mask_alpha: 0
+  subtitle: 
 
 
 #---------------------------
@@ -788,8 +788,8 @@ archive:
 category:
   enable: true
   banner_img: /img/default.png
-  banner_img_height: 60
-  banner_mask_alpha: 0.3
+  banner_img_height: 40
+  banner_mask_alpha: 0
   subtitle:
 
   # 分类的排序字段，前面带减号是倒序，不带减号是正序
@@ -818,8 +818,8 @@ category:
 tag:
   enable: true
   banner_img: /img/default.png
-  banner_img_height: 80
-  banner_mask_alpha: 0.3
+  banner_img_height: 40
+  banner_mask_alpha: 0
   subtitle:
   tagcloud:
     min_font: 15
@@ -836,12 +836,12 @@ tag:
 about:
   enable: true
   banner_img: /img/default.png
-  banner_img_height: 60
-  banner_mask_alpha: 0.3
+  banner_img_height: 40
+  banner_mask_alpha: 0
   subtitle:
   avatar: /img/avatar.png
-  name: "Fluid"
-  intro: "An elegant theme for Hexo"
+  name: "mush.room."
+  intro: "mush.Mario's Blog"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
@@ -859,8 +859,8 @@ about:
 #---------------------------
 page:
   banner_img: /img/default.png
-  banner_img_height: 60
-  banner_mask_alpha: 0.3
+  banner_img_height: 40
+  banner_mask_alpha: 0
 
 
 #---------------------------
@@ -920,11 +920,11 @@ links:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis
-    type: disqus
+    type: twikoo
 
 
 #---------------------------
