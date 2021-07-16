@@ -757,7 +757,7 @@ remark42:
 # Based on Tencent CloudBase
 # See: https://twikoo.js.org
 twikoo:
-  envId: https://mushroom-twikoo.vercel.app/
+  envId: https://mushroom-twikoo.vercel.app
   region: 
   path: window.location.pathname
 
@@ -982,6 +982,6 @@ static_prefix:
 
   disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1.3.0/dist/
 
-  twikoo: https://cdn.jsdelivr.net/npm/twikoo@1.3.1/dist/
+  twikoo: https://cdn.jsdelivr.net/npm/twikoo@1.4.0/dist/
 
   hint: /lib/hint/
