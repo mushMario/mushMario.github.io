@@ -18,11 +18,11 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: /img/favicon.png
+favicon: /img/mush_cat.png
 
 # 用于苹果设备的图标
 # Icon for Apple touch
-apple_touch_icon: /img/favicon.png
+apple_touch_icon: /img/mush_cat.png
 
 # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
 # Title separator in browser tab, eg: article - site
@@ -498,7 +498,7 @@ post:
     # 作者，优先根据 front-matter 里 author 字段，其次是 hexo 配置中 author 值
     # Author, based on `author` field in front-matter, if not set, based on `author` value in hexo config
     author:
-      enable: true
+      enable: false
 
     # 文章日期，优先根据 front-matter 里 date 字段，其次是 md 文件日期
     # Post date, based on `date` field in front-matter, if not set, based on create date of .md file
@@ -539,7 +539,7 @@ post:
   # 在文章开头显示文章更新时间，该时间默认是 md 文件更新时间，可通过 front-matter 中 `updated` 手动指定（和 date 一样格式）
   # Update date is displayed at the beginning of the post. The default date is the update date of the md file, which can be manually specified by `updated` in front-matter (same format as date)
   updated:
-    enable: true
+    enable: false
 
     # 描述文字
     # Descriptive text before date
@@ -612,7 +612,7 @@ post:
   mermaid:
     # 开启后文章默认可用，自定义页面如需使用，需在 Front-matter 中指定 `mermaid: true`
     # If you want to use mermaid on the custom page, you need to set `mermaid: true` in Front-matter
-    enable: false
+    enable: true
 
     # 开启后，只有在文章 Front-matter 里指定 `mermaid: true` 才会在文章页启动公式转换，以便在页面不包含公式时提高加载速度
     # If true, only set `mermaid: true` in Front-matter will enable mermaid, to load faster when the page does not contain mermaid
@@ -731,8 +731,8 @@ waline:
 # Based on third-party service, insufficient support for regions outside China
 # http://changyan.kuaizhan.com
 changyan:
-  appid: 'cyvyAy4qY'
-  appkey: 'aa5a8425c9e00922247f4da315153439'
+  appid: 
+  appkey: 
 
 # 来必力 Livere
 # 基于第三方的服务
@@ -838,7 +838,7 @@ about:
   banner_img: /img/default.png
   banner_img_height: 40
   banner_mask_alpha: 0
-  subtitle:
+  subtitle: 关于
   avatar: /img/avatar.png
   name: "mush.room."
   intro: "mush.Mario's Blog"
@@ -871,7 +871,7 @@ page404:
   enable: true
   banner_img: /img/default.png
   banner_img_height: 85
-  banner_mask_alpha: 0.3
+  banner_mask_alpha: 0
   subtitle: "Page not found"
 
 
@@ -883,7 +883,7 @@ links:
   enable: true
   banner_img: /img/default.png
   banner_img_height: 60
-  banner_mask_alpha: 0.3
+  banner_mask_alpha: 0
   subtitle:
   # 友链的成员项
   # Member item of page
