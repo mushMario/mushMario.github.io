@@ -8,7 +8,7 @@ date: 2021-07-17 00:01:26
 我是 **mush.Mario.** 是这个blog的博主，你也可以叫我mush）
 欢迎来到 **mush.room.** （又称mush的小屋），~~你已选择，或应要求浏览到目前我们最好的一个网站~~ 
 
-![](images\mush.room.png)
+![](/about/images/mush.room.png)
 
 ### **关于本站的内容**
 
