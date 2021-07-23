@@ -1,5 +1,4 @@
 /*本字体库为iconfont的扩展，需搭配iconfont一起使用*/
 .icon-likes:before{
 	content: "\e799";
-	transition: color 0.2s;
 }
