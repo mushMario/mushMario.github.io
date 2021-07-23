@@ -46,3 +46,19 @@
 <% if (theme.custom_css) { %>
   <%- css(theme.custom_css) %>
 <% } %>
+
+
+<% if(theme.phioa_likes.enable){ %>
+	<!-- phioa_likes插件使用的样式>
+	<style>
+		#phioa_likes-icon:hover{
+			color: <%= theme.phioa_likes.cursorHover_color %>;
+		}
+		#phioa_likes-icon.afterlike{
+			color: <%= theme.phioa_likes.afterLike_color %>;
+		}
+		#phioa_likes-icon.beforelike{
+			color: <%= theme.phioa_likes.beforeLike_color %>;
+		}
+	</style>
+<% } %>

@@ -1,0 +1,12 @@
+@font-face{
+	font-family: "mushfont";
+	src: url(/);
+}
+
+.mushfont{
+	font-family: "mushfont" !important;
+	font-style: normal;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
