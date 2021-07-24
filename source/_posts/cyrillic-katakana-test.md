@@ -2,7 +2,7 @@
 title: cyrillic-katakana test
 author: phioa
 date: 2021-07-24 12:57:31
-tags: 测试
+categories: 测试
 ---
 
 スミマセン、ワタシハニホンゴガハナセマセンデス。
