@@ -57,11 +57,11 @@ code:
       # 在链接中挑选 style 填入
       # Select a style in the link
       # See: https://highlightjs.org/static/demo/
-      style: "Github Gist"
+      style: "Paraiso Dark"
 
       # 是否根据 style 改变代码背景色（如果 style 是深色背景别忘了开启此项）
       # If true, the code background will change color based on the style (If style has a dark background, don't forget to true)
-      bg_color: false
+      bg_color: true
 
     prismjs:
       # 在下方链接页面右侧的圆形按钮挑选 style 填入，也可以直接填入 css 链接
@@ -102,7 +102,7 @@ fun_features:
     # Options: hover | always | touch
     visible: hover
     # Option：§ | # | ❡
-    icon: "⚑"
+    icon: ""
 
   # 加载进度条
   # Progress bar when loading
@@ -329,7 +329,7 @@ search:
   # 搜索的范围
   # Search field
   # Options: post | page | all
-  field: post
+  field: all
 
   # 搜索是否扫描正文
   # If true, search will scan the post content
@@ -415,7 +415,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/default.png
+  banner_img: /img/Page_Home.png
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -488,7 +488,7 @@ index:
 #---------------------------
 post:
   banner_img: /img/default.png
-  banner_img_height: 70
+  banner_img_height: 50
   banner_mask_alpha: 0
 
   # 文章在首页的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
@@ -778,8 +778,8 @@ cusdis:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/default.png
-  banner_img_height: 40
+  banner_img: /img/Page_Archive.png
+  banner_img_height: 50
   banner_mask_alpha: 0
   subtitle: 
 
@@ -790,8 +790,8 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/default.png
-  banner_img_height: 40
+  banner_img: /img/Page_Category.png
+  banner_img_height: 50
   banner_mask_alpha: 0
   subtitle:
 
@@ -820,16 +820,16 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/default.png
-  banner_img_height: 40
+  banner_img: /img/Page_Tag.png
+  banner_img_height: 50
   banner_mask_alpha: 0
   subtitle:
   tagcloud:
     min_font: 15
     max_font: 30
     unit: px
-    start_color: "#BBBBEE"
-    end_color: "#337ab7"
+    start_color: "#684282"
+    end_color: "#a88cc6"
 
 
 #---------------------------
@@ -838,8 +838,8 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.png
-  banner_img_height: 40
+  banner_img: /img/Page_About.png
+  banner_img_height: 50
   banner_mask_alpha: 0
   subtitle: 关于
   avatar: /img/avatar.png
@@ -862,7 +862,7 @@ about:
 #---------------------------
 page:
   banner_img: /img/default.png
-  banner_img_height: 40
+  banner_img_height: 50
   banner_mask_alpha: 0
 
 
@@ -885,7 +885,7 @@ page404:
 links:
   enable: true
   banner_img: /img/default.png
-  banner_img_height: 60
+  banner_img_height: 50
   banner_mask_alpha: 0
   subtitle:
   # 友链的成员项
