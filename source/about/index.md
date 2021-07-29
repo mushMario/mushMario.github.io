@@ -7,7 +7,7 @@ date: 2021-07-17 00:01:26
 
 我是mush，欢迎来到mush.room.~~你已选择，或应要求浏览到目前我们最好的一个网站~~ 
 
-![](images\mush.room.png)
+![](/about/images/mush.room.png)
 
 ### **关于我自己**
 
