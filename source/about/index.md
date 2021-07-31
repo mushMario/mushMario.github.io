@@ -71,16 +71,16 @@ date: 2021-07-17 00:01:26
 
 我在这些社交平台上都有账号：
 
-- [<font color="#ff96c9">哔哩哔哩</font>](https://space.bilibili.com/627410986)
-- [<font color="#39833c">酷安</font>](http://www.coolapk.com/u/1145375)
-- [<font color="#170d29">GitHub</font>](https://github.com/mushMario)
-- [<font color="#005e55">Lofter</font>](https://mario307.lofter.com)
-- [<font color="#0394d6">Pixiv</font>](https://www.pixiv.net/users/18766277)
-- [<font color="#d63b2f">QQ</font>](https://qm.qq.com/cgi-bin/qm/qr?k=b83J5xvJVtkF4SvPqii1jQCsPPtHYcoB&noverify=0)
-- [<font color="#114b7a">Steam</font>](https://steamcommunity.com/id/mario307/)
-- [<font color="#46a7f5">Twitter</font>](https://twitter.com/Mario_Mush_)
-- [<font color="#d63b2f">网易云音乐</font>](http://music.163.com/m/user/home?id=330304658)
-- [<font color="#ffcb30">站酷</font>](https://www.zcool.com.cn/u/23363706)
+- [<span style="color:#ff96c9;">哔哩哔哩</span>](https://space.bilibili.com/627410986)
+- [<span style="color:#39833c;">酷安</span>](http://www.coolapk.com/u/1145375)
+- [<span style="color:#170d29;">GitHub</span>](https://github.com/mushMario)
+- [<span style="color:#005e55;">Lofter</span>](https://mario307.lofter.com)
+- [<span style="color:#0394d6;">Pixiv</span>](https://www.pixiv.net/users/18766277)
+- [<span style="color:#d63b2f;">QQ</span>](https://qm.qq.com/cgi-bin/qm/qr?k=b83J5xvJVtkF4SvPqii1jQCsPPtHYcoB&noverify=0)
+- [<span style="color:#114b7a;">Steam</span>](https://steamcommunity.com/id/mario307/)
+- [<span style="color:#46a7f5;">Twitter</span>](https://twitter.com/Mario_Mush_)
+- [<span style="color:#d63b2f;">网易云音乐</span>](http://music.163.com/m/user/home?id=330304658)
+- [<span style="color:#ffcb30;">站酷</span>](https://www.zcool.com.cn/u/23363706)
 
 ...然后这是我的邮箱：mario307@163.com
 
