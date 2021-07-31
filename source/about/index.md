@@ -1,47 +1,87 @@
 ---
-title: 关于（wip）
+title: 关于（Still wip）
 date: 2021-07-17 00:01:26
 ---
 
-### **欢迎**
-
-我是mush，欢迎来到mush.room.~~你已选择，或应要求浏览到目前我们最好的一个网站~~ 
-
 ![](/about/images/mush.room.png)
 
-### **关于我自己**
+### **欢迎**
 
-我叫mush.Mario. 你可以叫我mush，暂时没想到什么中文网名（
-mush.Mario.是我现在在社交网络上常用的一个名字，也是我自设的名字 [你可以点这里了解我的自设，他超可爱的（什](https://mushmario.github.io/2021/07/21/mushmario/index.html)
-生日是4月5日，学生，正处于对即将到来的成年感到危机（逃
+欢迎，欢迎来到mush.room.~~你已选择，或应要求浏览到目前我们最好的一个网站~~ 
+这里是用来记录关于我各种东西的地方，不管你是通过什么渠道了解到了这里，我都在此欢迎你的浏览
 
-休息方式主要是睡觉和打游戏（）
-游戏喜欢玩fps、2D/3D平台跳跃、rpg还有音游之类的，很多以独立游戏和老游戏为主，因为自己的电脑也带不动什么3A大作（。
-其中喜欢的作品有Half-Life/Portal等V社游戏、DOOM、a Hat in Time、ori、Oneshot、Undertale还有好多（）
-超喜欢Oneshot的主角Niko，他真的好可爱（落泪
-已经不敢碰多人对战游戏了（）主要是那些竞技性强的游戏，只想做快乐单机人（
-
-这是我的各种社交网络账号：
-- [哔哩哔哩](https://space.bilibili.com/627410986)
-- [Lofter](https://mario307.lofter.com)
-- [Twitter](https://twitter.com/Mario_Mush_)
-- 
+ヾ(•ω•`)o
 
 
 
-### **关于本站**
 
+---
 
-### **关于本站的内容**
+### **关于这个博客**
+
+成立于2021年，使用[Hexo](https://hexo.io/)搭建，目前的主题是Fluid
+
+我自己并不擅长编程，对其真的了解很少（
+
+在此要特别感谢Phioa在这个博客的建立过程中，给我提供了非常多的技术支持xx
+
+如上面所说，这个博客是用来记录我各种东西的，其中可能会包括但不限于：
 
 - 我画的一些儿童画
 - 我的自设相关
 - 我平常拍的一些照片
 - 我用自己薄弱的软件技术做的小小手工（）
 - 我的一些摸鱼日常
+- 我的游戏记录
 - 试图安利、分享些自己看见的、喜欢的东西
 - 一些自己的想法什么的...
 - 我（
 
+突然想建立这个博客的想法，是在看见了一个叫做[【アルフの部屋】](https://alf-s-room.com/)的博客网站之后出现的
 
+当时我是通过Youtube上的视频[【"MICHAELSOFT BINBOWS" isn't what you think it is】](https://www.youtube.com/watch?v=yDzAAjzbV5g&t=1s&ab_channel=NickRobinson)了解到了这个地方。视频的油管主Nick Robinson在寻找一张meme图出处时，就是从这里找到了他需要的关键线索
 
+我也在这个充满了上世纪90年代互联网气息的网站中，得到了些特别的感受。当年的网民们可以这样自己开一个属于自己的网站，在里面随便发布自己喜欢的内容，不用像是在如今的好多社交网络平台中，受着平台的限制，自己的内容自己没有所有权等等...
+
+这些想法，促使了我想要拥有一个自己的个人网站的愿望）后来得到phioa的建议和帮助之后，也就有了现在的这个名叫mush.room. 的博客网站，在此也要再次地感谢Phioa）
+
+本博客所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0 协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) ，转载请注明出处！
+
+### **关于我自己**
+
+我叫mush.Mario. 是mush.room.这个博客的博主，你可以叫我mush  
+
+旧名mario307，mush.Mario.是我现在的网络用名，也是我自设的名字  
+
+[你可以点这里了解我的自设，他超可爱的（什](https://mushmario.github.io/2021/07/21/mushmario/index.html) 
+
+生日是4月5日，学生，出生于广东.
+
+是经常不好好正常打字的括号怪~~（（（别打括号了都要不符合md语法了喂~~
+
+比较内向，交流能力很糟糕也害怕与人见面，但是喜欢在网络上认识有共同喜好的人...因为没什么主见，过于在乎别人的想法，导致自己经常因为别人的看法而陷入消极的情绪中（。）总之就是在与人交流方面还是太多障碍TT
+
+喜欢睡觉、玩游戏、画画、拍照、听歌、咖啡、猫、猫、咖啡等等
+
+很多喜好都是虽然喜欢但不一定就真的了解特别多的那种（
+
+游戏喜欢玩fps、2D/3D平台跳跃、RPG和音游之类的，比如 DOOM、Half-Life、Portal、a Hat in Time、Oneshot这些，音游除了些手机端音游之外就是osu!和最近难得接触到的maimaiDX（    
+
+听歌听的曲风差异都很大，轻的有Lofi-Hiphop这样的轻音乐，重的有Hardcore、Hardstyle还有其他很快很重很硬的，我也说不清名字的电音流派（）  目前最喜欢的曲师是かめりあ（Camellia）
+
+我在这些社交平台上都有账号：
+
+- [<font color="#ff96c9">哔哩哔哩</font>](https://space.bilibili.com/627410986)
+- [<font color="#39833c">酷安</font>](http://www.coolapk.com/u/1145375)
+- [<font color="#170d29">GitHub</font>](https://github.com/mushMario)
+- [<font color="#005e55">Lofter</font>](https://mario307.lofter.com)
+- [<font color="#0394d6">Pixiv</font>](https://www.pixiv.net/users/18766277)
+- [<font color="#d63b2f">QQ</font>](https://qm.qq.com/cgi-bin/qm/qr?k=b83J5xvJVtkF4SvPqii1jQCsPPtHYcoB&noverify=0)
+- [<font color="#114b7a">Steam</font>](https://steamcommunity.com/id/mario307/)
+- [<font color="#46a7f5">Twitter</font>](https://twitter.com/Mario_Mush_)
+- [<font color="#d63b2f">网易云音乐</font>](http://music.163.com/m/user/home?id=330304658)
+- [<font color="#ffcb30">站酷</font>](https://www.zcool.com.cn/u/23363706)
+
+...然后这是我的邮箱：mario307@163.com
+
+p.s.以上的社交平台账号我不一定全部都会在那里活跃
