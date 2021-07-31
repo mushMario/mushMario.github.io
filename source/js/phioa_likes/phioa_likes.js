@@ -2,7 +2,7 @@
 
 var likeReady = false;
 
-function getLikes(){
+jQuery(function(){
 	jQuery.getJSON(
 		"https://www.phioa.xyz:8443/url_likes/getLikes.php", 
 		{url: window.location.href},
@@ -27,9 +27,9 @@ function getLikes(){
 			}
 		}	
 	);
-}
+});
 
-function like(){
+jQuery('#phioa_likes').click(function(){
 	if(likeReady){
 		if(jQuery('#phioa_likes-icon').hasClass('beforelike')){
 			jQuery('#phioa_likes-icon').removeClass('beforelike');
@@ -48,8 +48,4 @@ function like(){
 			}	
 		);
 	}
-}
-
-
-jQuery(getLikes);
-jQuery('#phioa_likes').click(like);
+});
