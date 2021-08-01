@@ -1,51 +1,57 @@
-'use strict';
+(function(){
+	'use strict';
 
-var likeReady = false;
+	if(jQuery('#phioa_likes').length <= 0)
+		return;
+	
+	let likeReady = false;
 
-jQuery(function(){
-	jQuery.getJSON(
-		"https://www.phioa.xyz:8443/url_likes/getLikes.php", 
-		{url: window.location.href},
-		function(result){
-			console.log(result);
-			if(result.success){
-				jQuery('#phioa_likes-count').text(function(){
-					return result.data.likedTimes;
-				});
-				if(result.data.hasLiked){
-					if(jQuery('#phioa_likes-icon').hasClass('beforelike')){
-						jQuery('#phioa_likes-icon').removeClass('beforelike');
-					}
-					jQuery('#phioa_likes-icon').addClass('afterlike');
-				} else {
-					if(jQuery('#phioa_likes-icon').hasClass('afterlike')){
-						jQuery('#phioa_likes-icon').removeClass('afterlike');
-					}
-					jQuery('#phioa_likes-icon').addClass('beforelike');
-				}
-				likeReady = true;
-			}
-		}	
-	);
-});
-
-jQuery('#phioa_likes').click(function(){
-	if(likeReady){
-		if(jQuery('#phioa_likes-icon').hasClass('beforelike')){
-			jQuery('#phioa_likes-icon').removeClass('beforelike');
-			jQuery('#phioa_likes-icon').addClass('afterlike');
-			jQuery('#phioa_likes-count').text(function(){return parseInt(jQuery('#phioa_likes-count').text())+1;});
-		} else {
-			jQuery('#phioa_likes-icon').removeClass('afterlike');
-			jQuery('#phioa_likes-icon').addClass('beforelike');
-			jQuery('#phioa_likes-count').text(function(){return parseInt(jQuery('#phioa_likes-count').text())-1;});
-		}
+	jQuery(function(){
 		jQuery.getJSON(
-			"https://www.phioa.xyz:8443/url_likes/like.php", 
+			"https://www.phioa.xyz:8443/url_likes/getLikes.php", 
 			{url: window.location.href},
 			function(result){
 				console.log(result);
+				if(result.success){
+					jQuery('#phioa_likes-count').text(function(){
+						return result.data.likedTimes;
+					});
+					if(result.data.hasLiked){
+						if(jQuery('#phioa_likes-icon').hasClass('beforelike')){
+							jQuery('#phioa_likes-icon').removeClass('beforelike');
+						}
+						jQuery('#phioa_likes-icon').addClass('afterlike');
+					} else {
+						if(jQuery('#phioa_likes-icon').hasClass('afterlike')){
+							jQuery('#phioa_likes-icon').removeClass('afterlike');
+						}
+						jQuery('#phioa_likes-icon').addClass('beforelike');
+					}
+					likeReady = true;
+					jQuery('#phioa_likes').css('display', 'inline');
+				}
 			}	
 		);
-	}
-});
+	});
+
+	jQuery('#phioa_likes').click(function(){
+		if(likeReady){
+			if(jQuery('#phioa_likes-icon').hasClass('beforelike')){
+				jQuery('#phioa_likes-icon').removeClass('beforelike');
+				jQuery('#phioa_likes-icon').addClass('afterlike');
+				jQuery('#phioa_likes-count').text(function(){return parseInt(jQuery('#phioa_likes-count').text())+1;});
+			} else {
+				jQuery('#phioa_likes-icon').removeClass('afterlike');
+				jQuery('#phioa_likes-icon').addClass('beforelike');
+				jQuery('#phioa_likes-count').text(function(){return parseInt(jQuery('#phioa_likes-count').text())-1;});
+			}
+			jQuery.getJSON(
+				"https://www.phioa.xyz:8443/url_likes/like.php", 
+				{url: window.location.href},
+				function(result){
+					console.log(result);
+				}	
+			);
+		}
+	});
+})();

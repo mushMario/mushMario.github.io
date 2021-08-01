@@ -52,10 +52,10 @@
     <% } %>
   <% } %>
   
-  <% if(theme.phioa_likes.enable){ %>
+  <% if(theme.phioa_likes && theme.phioa_likes.enable){ %>
     <!-- phioa up! -->
 	<style>#phioa_likes:hover #phioa_likes-icon{color: <%= theme.phioa_likes.cursorHover_color %>;}</style>
-	<span class="post-meta mr-2" id="phioa_likes">
+	<span class="post-meta mr-2" id="phioa_likes" style="display:none;">
       <i class="iconfont icon-likes" id="phioa_likes-icon"></i>
 	  <span id="phioa_likes-count"></span>
 	  赞
