@@ -53,7 +53,7 @@ date: 2021-07-17 00:01:26
 
 旧名mario307，mush.Mario.是我现在的网络用名，也是我自设的名字  
 
-[你可以点这里了解我的自设，他超可爱的（什](https://mushmario.github.io/mushmario/index.html) 
+[你可以点这里了解我的自设，他超可爱的（什](https://mushmario.github.io/posts/mushmario/index.html) 
 
 生日是4月5日，学生，出生于广东.
 
