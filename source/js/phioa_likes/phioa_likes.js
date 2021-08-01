@@ -6,17 +6,17 @@
 	
 	let likeReady = false; // 这个变量用于标记当前页面点赞数获取是否已经完成
 	
-	// 在页面dom加载完成时会试图获取当前页面点赞数
-	jQuery(function(){
-		jQuery.getJSON(
-			"https://www.phioa.xyz:8443/url_likes/getLikes.php", // 后端部分做成了开放api接口的形式
-			{url: window.location.href}, // 我有好好做sql注入防护，所以别乱想噢！
-			function(result){
-				console.log(result);
-				/* 如果有报错的话，也可以在mush的mushmario.github.io仓库提交issue噢）
-				 * https://github.com/mushMario/mushMario.github.io/issues
-				 */
-				if(result.success){ // 返回json的简单处理
+	// 获取当前页面点赞数
+	jQuery.getJSON(
+		"https://www.phioa.xyz:8443/url_likes/getLikes.php", // 后端部分做成了开放api接口的形式
+		{url: window.location.href}, // 我有好好做sql注入防护，所以别乱想噢！
+		function(result){
+			console.log(result);
+			/* 如果有报错的话，也可以在mush的mushmario.github.io仓库提交issue噢）
+			 * https://github.com/mushMario/mushMario.github.io/issues
+			 */
+			if(result.success){ // 返回json后，在确保dom加载完成时进行进一步操作
+				jQuery(function(){
 					jQuery('#phioa_likes-count').text(function(){
 						return result.data.likedTimes;
 					});
@@ -35,10 +35,10 @@
 					
 					likeReady = true;
 					jQuery('#phioa_likes').css('display', 'inline');
-				}
-			}	
-		);
-	});
+				});
+			}
+		}	
+	);
 	
 	// 用户点赞操作部分
 	jQuery('#phioa_likes').click(function(){
