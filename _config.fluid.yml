@@ -301,7 +301,7 @@ navbar:
     # 不透明度，数字越大透明度越低，注意透明过度可能看不清菜单字体
     # Ratio of opacity, 1.0 is completely opaque
     # available: 0 - 1.0
-    alpha: 0.9
+    alpha: 1
 
   # 导航栏菜单，可自行增减，key 用来关联 languages/*.yml，如不存在关联则显示 key 本身的值；icon 是 css class，可以省略；增加 name 可以强制显示指定名称
   # Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name
@@ -310,7 +310,15 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
-    - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+    - {
+      key: '关于',
+      icon: 'iconfont icon-user-fill',
+      submenu: [
+        { key: '关于我', link: "/about/" },
+        { key: '关于mush', link: "/posts/mushmario/" },
+        { key: '关于这个博客', link: "/about_blog/" },
+        { key: '友情链接（未启用）', link: 'https://hexo.fluid-dev.com/docs/icon/' }
+      ]
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
@@ -487,7 +495,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/default.png
+  banner_img: /img/Page_Post.png
   banner_img_height: 50
   banner_mask_alpha: 0
 
@@ -841,16 +849,19 @@ about:
   banner_img: /img/Page_About.png
   banner_img_height: 50
   banner_mask_alpha: 0
-  subtitle: 关于
+  subtitle: 关于我
   avatar: /img/avatar.png
-  name: "mush.room."
-  intro: "mush.Mario's Blog"
+  name: "mush.Mario."
+  intro: "4月5日 | 学生 | 广东"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
-    - { class: "iconfont icon-github-fill", link: "https://github.com", tip: "GitHub" }
-    - { class: "iconfont icon-douban-fill", link: "https://douban.com", tip: "豆瓣" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
+    - { class: "iconfont icon-steam", link: "https://steamcommunity.com/id/mario307/", tip: "Steam" }
+    
+    - { class: "iconfont icon-qq-fill", qrcode: "/img/QQ_QR_Code.png" }
+    - { class: "iconfont icon-twitter-fill", link: "https://twitter.com/Mario_Mush_", tip: "Twitter" }
+    - { class: "iconfont icon-github-fill", link: "https://github.com/mushMario", tip: "GitHub" }
+    - { class: "iconfont icon-bilibili-fill", link: "https://space.bilibili.com/627410986", tip: "Bilibili" }
 
 
 #---------------------------
@@ -861,7 +872,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: /img/default.png
+  banner_img: /img/Page_About.png
   banner_img_height: 50
   banner_mask_alpha: 0
 
