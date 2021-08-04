@@ -1,5 +1,5 @@
 ---
-title: 一些以前的摸鱼 Part 1
+title: 一些以前的摸鱼 (#1)
 date: 2021-07-17 19:05:51
 categories:
 - 绘画

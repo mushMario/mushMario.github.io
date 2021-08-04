@@ -140,47 +140,47 @@ color:
 
   # 顶部菜单字体色
   # Color of navigation bar text
-  navbar_text_color: "#fff"
-  navbar_text_color_dark: "#fff"
+  navbar_text_color: "#f6f3f9"
+  navbar_text_color_dark: "#d5c8e3"
 
   # 全局字体色
   # Color of global text
   text_color: "#412951"
-  text_color_dark: "#a88cc6"
+  text_color_dark: "#d5c8e3"
 
   # 全局次级字体色（摘要、简介等位置）
   # Color of global secondary text (excerpt, introduction, etc.)
   sec_text_color: "#a88cc6"
-  sec_text_color_dark: "#8252a2"
+  sec_text_color_dark: "#86689b"
 
   # 文章正文字体色
   # Color of post text
-  post_text_color: "#412951"
-  post_text_color_dark: "#a88cc6"
+  post_text_color: "#684282"
+  post_text_color_dark: "#b9a3d1"
 
   # 文章正文字体色（h1 h2 h3...）
   # Color of Article heading (h1 h2 h3...)
   post_heading_color: "#412951"
-  post_heading_color_dark: "#fff"
+  post_heading_color_dark: "#d5c8e3"
 
   # 文章超链接字体色
   # Color of post link
   post_link_color: "#9b6029"
-  post_link_color_dark: "#f3c66f"
+  post_link_color_dark: "#af8054"
 
   # 超链接悬浮时字体色
   # Color of link when hovering
   link_hover_color: "#a88cc6"
-  link_hover_color_dark: "#c5b3d2"
+  link_hover_color_dark: "#d5c8e3"
 
   # 超链接悬浮背景色
   # Color of link background when hovering
-  link_hover_bg_color: "#fff"
-  link_hover_bg_color_dark: "#364151"
+  link_hover_bg_color: "#ffffff"
+  link_hover_bg_color_dark: "#291835"
 
   # 主面板背景色
   # Color of main board
-  board_color: "#fff"
+  board_color: "#f6f3f9"
   board_color_dark: "#412951"
 
 # 主题字体配置
@@ -315,10 +315,11 @@ navbar:
       icon: 'iconfont icon-user-fill',
       submenu: [
         { key: '关于我', link: "/about/" },
-        { key: '关于mush', link: "/posts/mushmario/" },
+        { key: '关于mush', link: "/about_mush/" },
         { key: '关于这个博客', link: "/about_blog/" },
         { key: '友情链接（未启用）', link: 'https://hexo.fluid-dev.com/docs/icon/' }
       ]
+  }
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
@@ -469,7 +470,7 @@ index:
   # 自动截取文章摘要
   # Auto extract post
   auto_excerpt:
-    enable: true
+    enable: false
 
   # 打开文章的标签方式
   # The browser tag to open the post

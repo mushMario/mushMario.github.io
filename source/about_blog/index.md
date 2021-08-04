@@ -2,7 +2,7 @@
 title: 关于blog
 subtitle: 关于这个博客
 ---
-![](/about_blog/images/mush.room.png)
+ ![](/about_blog/images/mush.room.png) 
 mush的小屋 2021
 
 <div class="markdown-body">
