@@ -16,7 +16,6 @@ categories:
 > 以上（已经后面本应该出现的）图像都截图自Haunted PS1社区的游戏开发者制作的游戏
 
 ### fluid组图功能测试_1
-> 使用html img标签做相对路径引用（更方便
 {% gi 6 3-2-1 %}
   <img src="./index/images/1.jpg" />
   <img src="./index/images/2.jpg" />
@@ -27,7 +26,6 @@ categories:
 {% endgi %}
 
 ### fluid组图功能测试_2
-> 使用md自带的图片资源应用语句，会在generate时强制转换为绝对路径（闲的没事可以用
 {% gi 5 3-2 %}
 
   ![](/posts/photos/index/images/1.jpg)
