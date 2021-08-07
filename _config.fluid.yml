@@ -317,7 +317,7 @@ navbar:
         { key: '关于我', link: "/about_me/" },
         { key: '关于mush', link: "/about_mush/" },
         { key: '关于这个博客', link: "/about_blog/" },
-        { key: '友情链接（未启用）', link: 'https://hexo.fluid-dev.com/docs/icon/' }
+        { key: '沙盒', link: "/posts/Sandbox/" }
       ]
   }
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }

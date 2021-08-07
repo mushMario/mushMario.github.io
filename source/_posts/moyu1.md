@@ -11,11 +11,12 @@ tags:
 - 摸鱼
 - 黑历史
 ---
-
-![](images/颜料盒.jpg )
-![](images/咖啡.jpg )
-![](images/mush64.jpg )
-![](images/NotoColorEmoji.jpg )
-![](images/Ihatemyself.jpg )
-![](images/揉揉.jpg )
-![](images/JustGiveUp!.jpg )
+{% gi 7 1-2-1-2-1 %}
+<img src="./index/images/颜料盒.jpg" />
+<img src="./index/images/咖啡.jpg" />
+<img src="./index/images/mush64.jpg" />
+<img src="./index/images/Ihatemyself.jpg" />
+<img src="./index/images/NotoColorEmoji.jpg" />
+<img src="./index/images/揉揉.jpg" />
+<img src="./index/images/JustGiveUp!.jpg" />
+{% endgi %}
