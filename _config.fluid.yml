@@ -314,7 +314,7 @@ navbar:
       key: '关于',
       icon: 'iconfont icon-user-fill',
       submenu: [
-        { key: '关于我', link: "/about/" },
+        { key: '关于我', link: "/about_me/" },
         { key: '关于mush', link: "/about_mush/" },
         { key: '关于这个博客', link: "/about_blog/" },
         { key: '友情链接（未启用）', link: 'https://hexo.fluid-dev.com/docs/icon/' }
@@ -576,7 +576,7 @@ post:
   # Copyright, will be displayed at the end of each post
   copyright:
     enable: true
-    content: '本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="nofollow noopener">CC BY-NC-SA 4.0 协议</a> ，转载请注明出处！'
+    content: '本博客所有内容除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="nofollow noopener">CC BY-NC-SA 4.0 协议</a> ，转载请注明出处！'
 
   # 文章底部上一篇下一篇功能
   # Link to previous/next post

@@ -1,5 +1,6 @@
 ---
 title: 一些以前的摸鱼 (#2)
+excerpt: 是从Lofter那边补档过来的旧图（。
 date: 2021-07-17 20:20:38
 categories:
 - 绘画
@@ -15,8 +16,6 @@ tags:
 - 摸鱼
 - 黑历史
 ---
-
-是从Lofter那边补档过来的旧图（。
 ![](images/oldheader_1.png )
 ![](images/old_pixelart.png )
 ![](images/oldheader_2_1.jpg )
