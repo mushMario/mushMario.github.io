@@ -9,7 +9,7 @@
 	// 获取当前页面点赞数
 	jQuery.getJSON(
 		"https://www.phioa.xyz:8443/url_likes/getLikes.php", // 后端部分做成了开放api接口的形式
-		{url: window.location.href}, // 我有好好做sql注入防护，所以别乱想噢！
+		{url: GetUrl()}, 
 		function(result){
 			console.log(result);
 			/* 如果有报错的话，也可以在mush的mushmario.github.io仓库提交issue噢）
@@ -56,7 +56,7 @@
 			// ajax部分
 			jQuery.getJSON(
 				"https://www.phioa.xyz:8443/url_likes/like.php", 
-				{url: window.location.href},
+				{url: GetUrl()},
 				function(result){
 					console.log(result); 
 					/* 如果有报错的话，也可以在mush的mushmario.github.io仓库提交issue噢）
@@ -67,3 +67,9 @@
 		}
 	});
 })();
+
+function GetUrl(){
+	let url = window.location.host + window.location.pathname;
+	url = url.substring(0, url.lastIndexOf('/') + 1);
+	return url;
+}
