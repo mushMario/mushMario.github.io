@@ -547,6 +547,14 @@ post:
       # Options: busuanzi | leancloud
       source: "busuanzi"
       format: "{} 次"
+     
+    # -------------------------------------
+    # phioa_likes插件的配置本应放在这里的 |
+    # 但是却放在本文件的最底下！          |
+    # 我也不知道放哪里好                  |
+    # 所以就先忍忍翻到本文件的底下吧      |
+    # -------------------------------------
+    
 
   # 在文章开头显示文章更新时间，该时间默认是 md 文件更新时间，可通过 front-matter 中 `updated` 手动指定（和 date 一样格式）
   # Update date is displayed at the beginning of the post. The default date is the update date of the md file, which can be manually specified by `updated` in front-matter (same format as date)
@@ -1002,7 +1010,7 @@ static_prefix:
   hint: /lib/hint/
   
 #--------------------------
-#| phioa的插件（？）配置！|
+# phioa的插件（...？）配置！|
 #--------------------------
 
 #简陋的点赞功能，搭配（魔改过的）fluid使用！
@@ -1012,3 +1020,4 @@ phioa_likes:
     afterLike_color: "#A88CC6" #点赞后图标的颜色，示例:"#FFFFFF"、"rgb(255, 255, 255)"
     beforeLike_color: "#FFFFFF" #点赞前图标的颜色
     cursorHover_color: "#AAAAAA" #鼠标悬停时的颜色
+    format: "{} 赞" # 显示的文本，{}是数字的占位符（必须包含）
