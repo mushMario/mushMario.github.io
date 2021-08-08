@@ -172,6 +172,8 @@ light
 <span style="font-size: 80%;">（揉揉mush</span>
 谢谢phioa TT
 
+# hexo功能测试
+
 ## iframe标签插件测试
 > 真的很好听！（吧...？
 
