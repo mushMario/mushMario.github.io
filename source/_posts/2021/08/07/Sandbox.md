@@ -177,4 +177,4 @@ light
 ## iframe标签插件测试
 > 真的很好听！（吧...？
 
-{% iframe http://music.163.com/outchain/player?type=2&id=1354257377&auto=1&height=66 %}
+{% iframe http://music.163.com/outchain/player?type=2&id=1354257377&height=66 %}
