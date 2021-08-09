@@ -71,6 +71,6 @@ mush的小屋 2021
 
 ---
 
-> 本博客所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0 协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) ，转载请注明出处.
+> 本博客所有原创内容除特别声明外，均采用 [CC BY-NC-SA 4.0 协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) ，转载请注明出处.
 
 </div>
