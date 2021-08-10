@@ -56,6 +56,8 @@ More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 > 这个也挺羞耻的（（
 > 所以还是算了吧）
 
+草好吧（)揉揉
+
 
 # 图像测试
 
@@ -117,12 +119,12 @@ light
 
 ## 普通的图片展示
 
-![Neko Yume 猫夢](images/fluid_whatwhat_tests/1.png)
-![Haunted PS1 Madvent Calender 2020, Day 16: Down in the Dungeon](images/fluid_whatwhat_tests/2.png)
-![Haunted PS1 Madvent Calender 2020, Day 16: Down in the Dungeon](images/fluid_whatwhat_tests/3.png)
-![Haunted PS1 Madvent Calender 2020, Day 11: What Lies Within the Ice](images/fluid_whatwhat_tests/4.png)
-![Haunted PS1 Madvent Calender 2020, Day 21: Formation](images/fluid_whatwhat_tests/5.png)
-![Haunted PS1 Madvent Calender 2020, Day 23: æ](images/fluid_whatwhat_tests/6.png)
+![Neko Yume 猫夢](images/fluid_groupimages_tests/1.png)
+![Haunted PS1 Madvent Calender 2020, Day 16: Down in the Dungeon](images/fluid_groupimages_tests/2.png)
+![Haunted PS1 Madvent Calender 2020, Day 16: Down in the Dungeon](images/fluid_groupimages_tests/3.png)
+![Haunted PS1 Madvent Calender 2020, Day 11: What Lies Within the Ice](images/fluid_groupimages_tests/4.png)
+![Haunted PS1 Madvent Calender 2020, Day 21: Formation](images/fluid_groupimages_tests/5.png)
+![Haunted PS1 Madvent Calender 2020, Day 23: æ](images/fluid_groupimages_tests/6.png)
 
 {% note info %}
 这一部分的图像，除了图一截自《Neko Yume：猫夢》之外
@@ -142,12 +144,12 @@ light
 > 使用html img标签做相对路径引用
 
 {% gi 6 3-2-1 %}
-<img src="./index/images/fluid_whatwhat_tests/1.png" />
-<img src="./index/images/fluid_whatwhat_tests/2.png" />
-<img src="./index/images/fluid_whatwhat_tests/3.png" />
-<img src="./index/images/fluid_whatwhat_tests/4.png" />
-<img src="./index/images/fluid_whatwhat_tests/5.png" />
-<img src="./index/images/fluid_whatwhat_tests/6.png" />
+<img src="./index/images/fluid_groupimages_tests/1.png" />
+<img src="./index/images/fluid_groupimages_tests/2.png" />
+<img src="./index/images/fluid_groupimages_tests/3.png" />
+<img src="./index/images/fluid_groupimages_tests/4.png" />
+<img src="./index/images/fluid_groupimages_tests/5.png" />
+<img src="./index/images/fluid_groupimages_tests/6.png" />
 {% endgi %}
 
 ### fluid组图功能测试_2
@@ -156,11 +158,11 @@ light
 > + 不是闲着没事最好别用  
 
 {% gi 5 3-2 %}
-![](/posts/Sandbox/index/images/fluid_whatwhat_tests/1.png)
-![](/posts/Sandbox/index/images/fluid_whatwhat_tests/2.png)
-![](/posts/Sandbox/index/images/fluid_whatwhat_tests/3.png)
-![](/posts/Sandbox/index/images/fluid_whatwhat_tests/4.png)
-![](/posts/Sandbox/index/images/fluid_whatwhat_tests/5.png)
+![](/posts/Sandbox/index/images/fluid_groupimages_tests/1.png)
+![](/posts/Sandbox/index/images/fluid_groupimages_tests/2.png)
+![](/posts/Sandbox/index/images/fluid_groupimages_tests/3.png)
+![](/posts/Sandbox/index/images/fluid_groupimages_tests/4.png)
+![](/posts/Sandbox/index/images/fluid_groupimages_tests/5.png)
 {% endgi %}
 
 ---
