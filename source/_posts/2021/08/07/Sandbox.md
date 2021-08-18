@@ -1,11 +1,12 @@
 ---
 title: 沙盒
+index_img: img/headers/sandbox.jpg
 excerpt: 用于测试
 author: mush.Mario. & phioa
 date: 2021-08-07 19:33:13
 categories:
 - 测试
-
+hide: true
 ---
 
 # 这里是沙盒
@@ -179,4 +180,7 @@ light
 ## iframe标签插件测试
 > 真的很好听！（吧...？
 
+确实好听）
+
 {% iframe http://music.163.com/outchain/player?type=2&id=1354257377&height=66 %}
+
