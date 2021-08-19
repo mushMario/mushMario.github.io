@@ -1017,7 +1017,9 @@ static_prefix:
 phioa_likes: 
     #简陋的配置选项
     enable: true
+    icon: "icon-likes" #点赞的图标，使用iconfont
     afterLike_color: "#A88CC6" #点赞后图标的颜色，示例:"#FFFFFF"、"rgb(255, 255, 255)"
     beforeLike_color: "#FFFFFF" #点赞前图标的颜色
-    cursorHover_color: "#AAAAAA" #鼠标悬停时的颜色
+    afterLike_hoverColor: "#AAAAAA" #点赞后光标悬浮的颜色
+    beforeLike_hoverColor: "#AAAAAA" #点赞前光标悬浮的颜色
     format: "{} 赞" # 显示的文本，{}是数字的占位符（必须包含）

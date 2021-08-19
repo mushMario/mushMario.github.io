@@ -55,9 +55,8 @@
   <% if(theme.phioa_likes && theme.phioa_likes.enable){ %>
 	<% let likes_texts = theme.phioa_likes.format.split('{}') %>
     <!-- phioa up! -->
-	<style>#phioa_likes:hover #phioa_likes-icon{color: <%= theme.phioa_likes.cursorHover_color %>;}</style>
 	<span class="post-meta mr-2" id="phioa_likes" style="display:none;">
-      <i class="iconfont icon-likes" id="phioa_likes-icon"></i>
+      <i class="iconfont <%- theme.phioa_likes.icon %>" id="phioa_likes-icon"></i>
 	  <%- likes_texts[0] %><span id="phioa_likes-count"></span><%- likes_texts[1] %>
     </span>
   <% } %>

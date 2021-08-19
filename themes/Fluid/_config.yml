@@ -988,7 +988,9 @@ static_prefix:
 
 phioa_likes:
     enable: true
+    icon: ""
     afterLike_color: ""
     beforeLike_color: ""
-    cursorHover_color: ""
+    afterLike_hoverColor: ""
+    beforeLike_hoverColor: ""
     format: ""
