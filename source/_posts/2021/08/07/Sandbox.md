@@ -184,3 +184,9 @@ light
 
 {% iframe http://music.163.com/outchain/player?type=2&id=1354257377&height=66 %}
 
+# 尝试在手机上进行一次更新
+
+这段话本身没有什么东西
+但是如果你能看见，说明我成功地在手机上进行了一次更新
+通过MGit和phioa制作的部署工具）
+谢谢phioa准备的工具））
