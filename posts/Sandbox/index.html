@@ -65,22 +65,22 @@
 
 	<!-- phioa_likes插件使用的样式 -->
 	<style>
-		#phioa_likes:hover{
+		.phioa_likes:hover{
 			cursor:pointer;
 		}
-		#phioa_likes-icon{
+		.phioa_likes-icon{
 			transition: color 0.2s;
 		}
-		#phioa_likes-icon.afterlike{
+		.phioa_likes-icon.afterlike{
 			color: #A88CC6;
 		}
-		#phioa_likes-icon.beforelike{
+		.phioa_likes-icon.beforelike{
 			color: #FFFFFF;
 		}
-		#phioa_likes:hover #phioa_likes-icon.afterlike{
+		.phioa_likes:hover #phioa_likes-icon.afterlike{
 			color: #AAAAAA;
 		}
-		#phioa_likes:hover #phioa_likes-icon.beforelike{
+		.phioa_likes:hover #phioa_likes-icon.beforelike{
 			color: #AAAAAA;
 		}
 	</style>
@@ -257,7 +257,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      629 字
+      741 字
     </span>
   
 
@@ -267,7 +267,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      7
+      8
        分钟
     </span>
   
@@ -286,9 +286,9 @@
   
 	
     <!-- phioa up! -->
-	<span class="post-meta mr-2" id="phioa_likes" style="display:none;">
-      <i class="iconfont icon-likes" id="phioa_likes-icon"></i>
-	  <span id="phioa_likes-count"></span> 赞
+	<span class="post-meta mr-2 phioa_likes" style="display:none;">
+      <i class="iconfont icon-likes phioa_likes-icon"></i>
+	  <span class="phioa_likes-count"></span> 赞
     </span>
   
 </div>
@@ -416,7 +416,18 @@
 <iframe src="http://music.163.com/outchain/player?type=2&id=1354257377&height=66" width="100%" height="300" frameborder="0" loading="lazy" allowfullscreen></iframe>
 
 <h1 id="尝试在手机上进行一次更新"><a href="#尝试在手机上进行一次更新" class="headerlink" title="尝试在手机上进行一次更新"></a>尝试在手机上进行一次更新</h1><p>这段话本身没有什么东西<br>但是如果你能看见，说明我成功地在手机上进行了一次更新<br>通过MGit和phioa制作的部署工具）<br>谢谢phioa准备的工具））</p>
+<h1 id="phioa自制的功能测试！"><a href="#phioa自制的功能测试！" class="headerlink" title="phioa自制的功能测试！"></a>phioa自制的功能测试！</h1><h2 id="点赞功能-phioa-likes"><a href="#点赞功能-phioa-likes" class="headerlink" title="点赞功能(phioa_likes)"></a>点赞功能(phioa_likes)</h2><span class="post-meta mr-2 phioa_likes" style="display: inline;">
+    <i class="iconfont icon-likes beforelike phioa_likes-icon"></i>
+    <span class="phioa_likes-count"></span> 赞
+</span><br />
 
+<p>在本页的顶上也有一个一模一样的按钮噢！<br>其实每篇博文的顶上都会有呢（<br>这个应该和顶上那个是同步的呢）  </p>
+<p><img src="/posts/Sandbox/index/images/phioa_functions_tests/likebutton.png" srcset="/img/loading.gif" lazyload alt="每篇博文标题下的按钮">  </p>
+<blockquote>
+<p>也记得多给mush的博文点点赞噢！（  </p>
+</blockquote>
+<h2 id="404图片自动替换功能-img-404"><a href="#404图片自动替换功能-img-404" class="headerlink" title="404图片自动替换功能(img_404)"></a>404图片自动替换功能(img_404)</h2><p>下面是一张不（太可能）存在的图片！<br><img src="nonexistentscheme://nonexistentdomain.null/nonexistentdir/nonexistentfile.nil" srcset="/img/loading.gif" lazyload alt="不存在的测试图片"><br>再下面是一组都不（太可能）存在的图片！</p>
+<div class="group-image-container"><div class="group-image-row"><div class="group-image-wrap"><img src="nonexistentscheme://nonexistentdomain.null/nonexistentdir/nonexistentfile.nil" srcset="/img/loading.gif" lazyload></div><div class="group-image-wrap"><img src="nonexistentscheme://nonexistentdomain.null/nonexistentdir/nonexistentfile.nil" srcset="/img/loading.gif" lazyload></div></div><div class="group-image-row"><div class="group-image-wrap"><img src="nonexistentscheme://nonexistentdomain.null/nonexistentdir/nonexistentfile.nil" srcset="/img/loading.gif" lazyload></div><div class="group-image-wrap"><img src="nonexistentscheme://nonexistentdomain.null/nonexistentdir/nonexistentfile.nil" srcset="/img/loading.gif" lazyload></div><div class="group-image-wrap"><img src="nonexistentscheme://nonexistentdomain.null/nonexistentdir/nonexistentfile.nil" srcset="/img/loading.gif" lazyload></div></div></div>
             </div>
             <hr>
             <div>
