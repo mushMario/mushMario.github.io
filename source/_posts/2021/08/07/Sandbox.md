@@ -190,3 +190,31 @@ light
 但是如果你能看见，说明我成功地在手机上进行了一次更新
 通过MGit和phioa制作的部署工具）
 谢谢phioa准备的工具））
+
+# phioa自制的功能测试！
+
+## 点赞功能\(phioa_likes\)  
+
+<span class="post-meta mr-2 phioa_likes" style="display: inline;">
+    <i class="iconfont icon-likes beforelike phioa_likes-icon"></i>
+	<span class="phioa_likes-count"></span> 赞
+</span><br />
+
+在本页的顶上也有一个一模一样的按钮噢！  
+其实每篇博文的顶上都会有呢（  
+这个应该和顶上那个是同步的呢）  
+
+![每篇博文标题下的按钮](images/phioa_functions_tests/likebutton.png)  
+> 也记得多给mush的博文点点赞噢！（  
+
+## 404图片自动替换功能\(img_404\)  
+下面是一张不（太可能）存在的图片！
+![不存在的测试图片](nonexistentscheme://nonexistentdomain.null/nonexistentdir/nonexistentfile.nil)
+再下面是一组都不（太可能）存在的图片！
+{% gi 5 2-3 %}
+![](nonexistentscheme://nonexistentdomain.null/nonexistentdir/nonexistentfile.nil)
+![](nonexistentscheme://nonexistentdomain.null/nonexistentdir/nonexistentfile.nil)
+![](nonexistentscheme://nonexistentdomain.null/nonexistentdir/nonexistentfile.nil)
+![](nonexistentscheme://nonexistentdomain.null/nonexistentdir/nonexistentfile.nil)
+![](nonexistentscheme://nonexistentdomain.null/nonexistentdir/nonexistentfile.nil)
+{% endgi %}

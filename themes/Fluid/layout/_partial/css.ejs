@@ -51,22 +51,22 @@
 <% if(theme.phioa_likes.enable){ %>
 	<!-- phioa_likes插件使用的样式 -->
 	<style>
-		#phioa_likes:hover{
+		.phioa_likes:hover{
 			cursor:pointer;
 		}
-		#phioa_likes-icon{
+		.phioa_likes-icon{
 			transition: color 0.2s;
 		}
-		#phioa_likes-icon.afterlike{
+		.phioa_likes-icon.afterlike{
 			color: <%= theme.phioa_likes.afterLike_color %>;
 		}
-		#phioa_likes-icon.beforelike{
+		.phioa_likes-icon.beforelike{
 			color: <%= theme.phioa_likes.beforeLike_color %>;
 		}
-		#phioa_likes:hover #phioa_likes-icon.afterlike{
+		.phioa_likes:hover #phioa_likes-icon.afterlike{
 			color: <%= theme.phioa_likes.afterLike_hoverColor %>;
 		}
-		#phioa_likes:hover #phioa_likes-icon.beforelike{
+		.phioa_likes:hover #phioa_likes-icon.beforelike{
 			color: <%= theme.phioa_likes.beforeLike_hoverColor %>;
 		}
 	</style>

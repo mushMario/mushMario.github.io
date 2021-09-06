@@ -1,7 +1,7 @@
 (function(){
 	'use strict';
 
-	if(jQuery('#phioa_likes').length <= 0) // 检查当前页面是否有#phioa_likes标签
+	if(jQuery('.phioa_likes').length <= 0) // 检查当前页面是否有.phioa_likes标签
 		return;
 	
 	let likeReady = false; // 这个变量用于标记当前页面点赞数获取是否已经完成
@@ -18,24 +18,24 @@
 			 */
 			if(result.success){ // 返回json后，在确保dom加载完成时进行进一步操作
 				jQuery(function(){
-					jQuery('#phioa_likes-count').text(function(){
+					jQuery('.phioa_likes-count').text(function(){
 						return result.data.likedTimes;
 					});
 					toggleSelectedCssClass(result.data.hasLiked);
 					likeReady = true;
-					jQuery('#phioa_likes').css('display', 'inline');
+					jQuery('.phioa_likes').css('display', 'inline');
 				});
 			}
 		}	
 	);
 	
 	// 用户点赞操作部分
-	jQuery('#phioa_likes').click(function(){
+	jQuery('.phioa_likes').click(function(){
 		if(likeReady){ // 禁止用户在点赞数获取完成前就试图点赞（虽然貌似更改display属性也可以实现这一点
 			if(toggleSelectedCssClass()){
-				jQuery('#phioa_likes-count').text(function(){return parseInt(jQuery('#phioa_likes-count').text())+1;});
+				jQuery('.phioa_likes-count').text(function(){return parseInt(jQuery('.phioa_likes-count').text())+1;});
 			} else {
-				jQuery('#phioa_likes-count').text(function(){return parseInt(jQuery('#phioa_likes-count').text())-1;});
+				jQuery('.phioa_likes-count').text(function(){return parseInt(jQuery('.phioa_likes-count').text())-1;});
 			}
 			// ajax部分
 			jQuery.getJSON(
@@ -72,26 +72,26 @@ function getUrl(){
  */
 function toggleSelectedCssClass(isLiked){
 	if(isLiked == undefined){
-		if(jQuery('#phioa_likes-icon').hasClass('beforelike')){
-			jQuery('#phioa_likes-icon').removeClass('beforelike');
-			jQuery('#phioa_likes-icon').addClass('afterlike');
+		if(jQuery('.phioa_likes-icon').hasClass('beforelike')){
+			jQuery('.phioa_likes-icon').removeClass('beforelike');
+			jQuery('.phioa_likes-icon').addClass('afterlike');
 			return true;
 		} else {
-			jQuery('#phioa_likes-icon').removeClass('afterlike');
-			jQuery('#phioa_likes-icon').addClass('beforelike');
+			jQuery('.phioa_likes-icon').removeClass('afterlike');
+			jQuery('.phioa_likes-icon').addClass('beforelike');
 			return false;
 		}
 	} else if(isLiked){
-		if(jQuery('#phioa_likes-icon').hasClass('beforelike')){
-			jQuery('#phioa_likes-icon').removeClass('beforelike');
+		if(jQuery('.phioa_likes-icon').hasClass('beforelike')){
+			jQuery('.phioa_likes-icon').removeClass('beforelike');
 		}
-		jQuery('#phioa_likes-icon').addClass('afterlike');
+		jQuery('.phioa_likes-icon').addClass('afterlike');
 		return true;
 	} else if(!isLiked){
-		if(jQuery('#phioa_likes-icon').hasClass('afterlike')){
-			jQuery('#phioa_likes-icon').removeClass('afterlike');
+		if(jQuery('.phioa_likes-icon').hasClass('afterlike')){
+			jQuery('.phioa_likes-icon').removeClass('afterlike');
 		}
-		jQuery('#phioa_likes-icon').addClass('beforelike');
+		jQuery('.phioa_likes-icon').addClass('beforelike');
 		return false;
 	}
 	return null;
