@@ -195,8 +195,8 @@ light
 
 ## 点赞功能\(phioa_likes\)  
 
-<span class="post-meta mr-2 phioa_likes" style="display: inline;">
-    <i class="iconfont icon-likes beforelike phioa_likes-icon"></i>
+<span class="post-meta mr-2 phioa_likes" style="display: none;">
+    <i class="iconfont icon-likes phioa_likes-icon"></i>
 	<span class="phioa_likes-count"></span> 赞
 </span><br />
 
