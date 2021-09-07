@@ -5,6 +5,7 @@
 		return;
 	
 	let likeReady = false; // 这个变量用于标记当前页面点赞数获取是否已经完成
+        let likeCount = 0; //这个变量用于记录（本地的）点赞数
 	
 	// 获取当前页面点赞数
 	jQuery.getJSON(
@@ -18,8 +19,9 @@
 			 */
 			if(result.success){ // 返回json后，在确保dom加载完成时进行进一步操作
 				jQuery(function(){
+                                        likeCount = result.data.likedTimes;
 					jQuery('.phioa_likes-count').text(function(){
-						return result.data.likedTimes;
+						return likeCount.toString();
 					});
 					toggleSelectedCssClass(result.data.hasLiked);
 					likeReady = true;
@@ -33,10 +35,13 @@
 	jQuery('.phioa_likes').click(function(){
 		if(likeReady){ // 禁止用户在点赞数获取完成前就试图点赞（虽然貌似更改display属性也可以实现这一点
 			if(toggleSelectedCssClass()){
-				jQuery('.phioa_likes-count').text(function(){return parseInt(jQuery('.phioa_likes-count').text())+1;});
+				likeCount++;
 			} else {
-				jQuery('.phioa_likes-count').text(function(){return parseInt(jQuery('.phioa_likes-count').text())-1;});
+				likeCount--;
 			}
+                        jQuery('.phioa_likes-count').text(function(){
+                                return likeCount;
+                        });
 			// ajax部分
 			jQuery.getJSON(
 				"https://www.phioa.xyz:8443/url_likes/like.php", 
