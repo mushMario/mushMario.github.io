@@ -12,6 +12,7 @@ tags:
 - 原生
 categories:
 - 数码
+hide: true
 ---
 大概是从去年开始，我就把我手上的一台Xiaomi MI 6X手机刷上了Android 11版本
 
