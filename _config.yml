@@ -107,7 +107,7 @@ theme: Fluid
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:mushMario/mushmario.github.io.git
+  repo: https://github.com/mushMario/mushMario.github.io.git
   branch: master
   message: 
 
